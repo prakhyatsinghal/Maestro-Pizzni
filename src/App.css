@@ -14,4 +14,64 @@ body{
   background: url("/public/img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position : relative;
+}
+
+.banner_content {
+  display : flex;
+  align-items : center;
+  height: 100vh;
+}
+
+.container {
+  width : 1200px;
+  max-width : 1200px;
+  margin : 0 auto;
+  color: #fff;
+}
+
+.banner__text{
+  width : 500px;
+}
+
+.banner__text h3{
+  font-size: 50px;
+}
+
+.banner__text h1{
+  font-size: 80px;
+  line-height : 80px;
+  font-weight : 900;
+}
+
+.banner__text p{
+  font-size :25px;
+  font-weight : 400;
+  margin-top: 20px;
+}
+
+.navbar{
+  position : absolute;
+  top : 0;
+  left : 0;
+  width : 100%
+}
+
+.navbar__text {
+  display : flex;
+  height : 60px;
+  align-items: center;
+  width : 1200px;
+  margin : 0 auto;
+}
+
+.logo{
+  width : 40%;
+}
+.logo img{
+  width : 220px;
+}
+
+.navbar__ul{
+  width : 60%
 }
