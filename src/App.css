@@ -72,6 +72,37 @@ body{
   width : 220px;
 }
 
-.navbar__ul{
-  width : 60%
+.navbar__ul {
+  width : 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
 }
+
+.navbar__ul li a {
+  text-decoration: none;
+  color :#fff;
+  padding: 0 15px;
+  font-weight : 800;
+  text-transform: uppercase;
+}
+
+.banner__btn{
+  margin-top: 35px;
+}
+.btn {
+  text-decoration: none;
+  border : none;
+  outline: none;
+  color:#fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding : 20px 40px;
+}
+
+.btn-smart{
+  background : rgb(255, 69,79);
+}
+
+

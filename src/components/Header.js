@@ -11,6 +11,11 @@ const Header = () => {
                 <p>Hello! Meastro Pizinni here. We deliver tasty and delicious pizzas at your doorstep. We are having
                     multiple varities of pizzas. 
                 </p>
+                <div className="banner__btn">
+              <a href="" className="btn btn-smart">
+                DELIVER NOW
+              </a>
+            </div>
             </div>
             </div>
         </div>
