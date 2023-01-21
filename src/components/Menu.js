@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Menu = () => {
+  
   return (
     <div className= "about">
     <div className="container">
